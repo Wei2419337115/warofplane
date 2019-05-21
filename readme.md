@@ -1,10 +1,13 @@
 # 此飞机大战项目是根据黑马课程的讲解,而写的代码
 
-此项目主要有两个python文件.
- (1) plane_sprites.py  精灵组的类和方法的定义
+此项目主要有两个python文件:
+
+- plane_sprites.py  精灵组的类和方法的定义
  背景精灵类, 敌机精灵类, 英雄精灵类,子弹精灵类
- (2) plane_main.py  飞机大战的主要入口
+- plane_main.py  飞机大战的主要入口
+
  里面主要定义七个方法:
+ 
     游戏的初始化 __init__()
     创建精灵组 __create_sprites()
     事件检测   __event_handler()
